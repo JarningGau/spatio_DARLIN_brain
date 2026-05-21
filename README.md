@@ -1,9 +1,14 @@
 ## Installation
+
+```{bash}
 pixi install --all
 pixi run init
+```
 
 ## Run
+```{bash}
 bash run.sh
+```
 
 ## Results
 
