@@ -1,0 +1,40 @@
+[workspace]
+authors = ["JarningGau <jarninggau@gmail.com>"]
+channels = [
+    "https://mirrors2.westlake.edu.cn/ANACONDA/cloud/conda-forge", 
+    "https://mirrors2.westlake.edu.cn/ANACONDA/cloud/bioconda"]
+name = "spatio_DARLIN_brain"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[tasks.init]
+cmd = "bash setup-vscode.sh"
+
+[feature.r.dependencies]
+r-base = "4.4.3.*"
+r-languageserver = ">=0.3.17,<0.4"
+r-matrix = "1.7.2.*"
+r-rann = ">=2.6.2,<3"
+r-ggplot2 = "3.5.2.*"
+r-seurat = "5.1.0.*"
+r-seuratobject = "5.0.2.*"
+r-qs = ">=0.27.3,<0.28"
+r-presto = ">=1.0.0,<2"
+r-tidyverse = ">=2.0.0,<3"
+r-reticulate = ">=1.46.0,<2"
+scanpy = ">=1.12.1,<2"
+r-ggsci = ">=5.0.0,<6"
+bioconductor-complexheatmap = ">=2.22.0,<3"
+r-dendextend = ">=1.19.1,<2"
+r-rcppml = ">=0.3.7.1,<0.4"
+r-dbscan = ">=1.2.4,<2"
+r-ineq = ">=0.2_13,<0.3"
+r-upsetr = ">=1.4.0,<2"
+r-ggvenndiagram = ">=1.5.7,<2"
+
+[environments]
+default = ["r"]
+
+[dependencies]
