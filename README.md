@@ -1,6 +1,8 @@
 ## Installation
 
 ```{bash}
+git clone git@github.com:JarningGau/spatio_DARLIN_brain.git
+cd spatio_DARLIN_brain
 pixi install --all
 pixi run init
 ```
