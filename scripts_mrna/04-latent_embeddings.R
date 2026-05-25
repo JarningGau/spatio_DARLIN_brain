@@ -1,5 +1,5 @@
 ## Generate PCA embeddings for clone2vec analysis
-setwd("scripts")
+setwd("scripts_mrna")
 
 library(tidyverse)
 library(Seurat)

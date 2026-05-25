@@ -1,4 +1,4 @@
-setwd("scripts")
+setwd("scripts_mrna")
 
 library(tidyverse)
 library(glue)
